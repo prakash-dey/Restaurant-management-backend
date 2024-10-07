@@ -1,0 +1,1 @@
+<!-- firstName, lastName, gender, restaurantName, city, state, phoneNumber, email, password -->
