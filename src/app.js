@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use("/",authRouther);
 
-connectDB.then(()=>{
+connectDB().then(()=>{
     console.log("Database connection successful");
     app.listen(3000);
     
